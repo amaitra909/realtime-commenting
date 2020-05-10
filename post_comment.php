@@ -37,10 +37,10 @@ function sendAjaxResponse($added) {
 
 function sendStandardResponse($added) {
   if($added) {
-    header( 'Location: index.php' );
+    header( 'Location: index.html' );
   }
   else {
-    header( 'Location: index.php?error=Your comment was not posted due to errors in your form submission' );
+    header( 'Location: index.html?error=Your comment was not posted due to errors in your form submission' );
   }
 }
 ?>
